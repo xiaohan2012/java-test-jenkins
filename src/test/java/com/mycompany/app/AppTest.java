@@ -35,4 +35,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testOne()
+    {
+	assertEquals("10 x 5 must be 50", 50, 10 * 5);
+    }
+
 }
